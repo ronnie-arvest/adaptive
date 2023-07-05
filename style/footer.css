@@ -69,6 +69,13 @@
   display: none;
 }
 
+.footer__list-item-pht {
+  display: flex;
+  flex-direction: column;
+  line-height: 34px;
+  gap: 0;
+}
+
 @media (max-width: 1024px) {
   .footer__list {
     max-width: 964px;

@@ -8,8 +8,9 @@
 .contact-screen-title {
   font-size: 35px;
   color: var(--wcolor);
-  margin-bottom: 17px;
-  padding-top: 70px;
+  margin-bottom: 22px;
+  padding-top: 74px;
+  padding-right: 24px;
 }
 
 .contact-screen-text {
@@ -37,6 +38,7 @@
 
 .contact-screen-text-p {
   color: var(--wcolor);
+  font-size: 20px;
 }
 
 .contact-screen-span-s {
@@ -63,7 +65,7 @@
     height: 558px;
   }
 
-  .button-main {
+  .button-main-f {
     margin-bottom: 30px;
   }
 
@@ -92,7 +94,7 @@
     font-size: 12px;
   }
 
-  .button-main {
+  .button-main-f {
     padding: 10px 26px;
     font-size: 16px;
   }
