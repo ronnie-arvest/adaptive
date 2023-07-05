@@ -1,8 +1,7 @@
 .contact-screen-container {
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  height: 621px;
 }
 
 .contact-screen-title {
@@ -21,6 +20,7 @@
 
 .contact-screen {
   position: relative;
+  height: 621px;
 }
 
 .contact-screen::before {
@@ -29,11 +29,16 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 621px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url("../img/original_598199574f1350638e11b2d2_5982c05803796.jpg");
   filter: brightness(0.3);
   z-index: -1;
   pointer-events: none;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .contact-screen-text-p {
@@ -63,6 +68,7 @@
   .contact-screen::before {
     background-image: url(../img/original_598199574f1350638e11b2d2_5982c058037961.jpg);
     height: 558px;
+    background-size: cover;
   }
 
   .button-main-f {
@@ -80,8 +86,7 @@
   }
 
   .contact-screen {
-    padding-left: 15px;
-    padding-right: 15px;
+    height: auto;
   }
 
   .contact-screen-title {
@@ -104,5 +109,11 @@
     padding-right: 15px;
     font-size: 11px;
     line-height: normal;
+  }
+}
+
+@media (max-width: 1440px) {
+  .contact-screen::before {
+    background-size: cover;
   }
 }
