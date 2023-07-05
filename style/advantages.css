@@ -52,11 +52,11 @@
 }
 
 .advantages__about-i::before {
-  left: 340px;
+  left: 348px;
 }
 
 .advantages__about-i::after {
-  right: 340px;
+  right: 348px;
 }
 
 .advantages__text {
@@ -78,7 +78,7 @@
   max-width: 900px;
   gap: 50px;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 73px;
 }
 
 .advantages__circle {
@@ -95,13 +95,14 @@
 
 .advantages__number {
   font-size: 57px;
+  padding-top: 10px;
 }
 
 .advantages__item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 19px;
+  gap: 17px;
   flex-basis: 196px;
   flex-shrink: 0;
 }
