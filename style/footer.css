@@ -65,7 +65,7 @@
   display: none;
 }
 
-.footer__madeby {
+.footer-madeby {
   display: none;
 }
 
@@ -116,7 +116,11 @@
     font-size: 8px;
   }
 
-  .footer__madeby {
+  .footer-madeby {
+    display: block;
+  }
+
+  .footer-madeby-text {
     display: block;
     background-color: #2A2C3F;
     color: var(--wcolor);
